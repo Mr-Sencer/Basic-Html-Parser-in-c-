@@ -18,7 +18,7 @@ namespace WebProject.Html
             {
                 elements.Clear();
             }
-            TextProcess process = new TextProcess();
+            
             HtmlTag element; 
     
             for (int i = 0; i < html.Length; i++) 
