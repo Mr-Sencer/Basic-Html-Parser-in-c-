@@ -81,7 +81,7 @@ namespace WebProject.Html
             for (int i = loc ; i < html.Length; i++)
             {
                
-                if (html[i] == '"' || html[i] == WebProject.Properties.Settings.Default.Ayar)
+                if (html[i] == '"' || html[i] == '\'')
                 {
                     end = html.IndexOf(html[i], i + 1) ;
                     propertyValue = proc.Cut(html, i + 1, end - 1);
